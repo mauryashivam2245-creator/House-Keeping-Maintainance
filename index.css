@@ -196,9 +196,9 @@ img {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 8vh;
+    gap: 4vh;
     margin-left: 18vh;
-    margin-right: 20vh;
+    margin-right: 15vh;
     margin-top: 10vh;
 }
 .cleaning{
