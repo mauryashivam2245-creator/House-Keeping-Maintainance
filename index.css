@@ -202,7 +202,7 @@ img {
     margin-top: 10vh;
 }
 .cleaning{
-    max-width: 1200px;
+    /* max-width: 1200px; */
     height: 25vh;
     width: 50vh;
     border: 2px solid rgb(153, 153, 158);
