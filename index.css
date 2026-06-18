@@ -188,6 +188,7 @@ img {
     font-size: 6vh;
 }
 .form{
+    height: 2vh;
     font-size: 3vh;
     color: rgb(119, 119, 112);
 }
@@ -196,7 +197,7 @@ img {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 8vh;
-    margin-left: 20vh;
+    margin-left: 18vh;
     margin-right: 20vh;
     margin-top: 10vh;
 }
@@ -204,6 +205,81 @@ img {
     max-width: 1200px;
     height: 25vh;
     width: 50vh;
-    border: 2px solid rgb(119, 119, 196);
+    border: 2px solid rgb(153, 153, 158);
     border-radius: 10px;
+    margin-left: 4vh;
+}
+.cleaning:hover{
+    border: 3px solid rgb(49, 54, 119);
+}
+.fa-wand-magic-sparkles{
+    font-size: 3vh;
+    margin-top: 3vh;
+    margin-left: 3vh;
+}
+.fa-droplet{
+    font-size: 3vh;
+    margin-top: 3vh;
+    margin-left: 3vh;
+}
+.fa-trash-can{
+    margin-top: 3vh;
+    margin-left: 3vh;
+    font-size: 3vh;
+}
+.fa-shoe-prints{
+    margin-top: 3vh;
+    margin-left: 3vh;
+    font-size: 3vh;
+}
+.fa-user-group{
+    margin-top: 3vh;
+    margin-left: 3vh;
+    font-size: 3vh;
+}
+.fa-bug{
+    margin-top: 3vh;
+    margin-left: 3vh;
+    font-size: 3vh;
+}
+.font-heading{
+    font-size: 3.5vh;
+    height: 7vh;
+}
+.font-heading2{
+    font-size: 2.5vh;
+    color: rgb(159, 159, 165);
+    height: 5vh;
+}
+.font{
+    margin-left: 3vh;
+}
+.all{
+    font-size: 3vh;
+    margin-left: 20vh;
+    margin-top: 8vh;
+
+}
+.company{
+    margin-top: 8vh;
+    margin-left: 20vh;
+    background-color:white;
+}
+.marquee{
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.marquee all-logo{
+    display: inline-block;
+    animation: move 10s linear infinite;
+}
+
+@keyframes move{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
 }
