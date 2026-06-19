@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    /* background-color: azure;
+    height: 64px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+    
+    position: relative;
+    z-index: 2;
+
+    background-color: azure;
+    min-height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    flex-wrap: wrap;
+
+}
+a {
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+a:hover{
+    background-color: rgb(218, 226, 226);
+    border-radius: 10px;
+    /* height: 30px; */
+    width: max-content;
+    /* border-bottom: 2px solid ; */
+}
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10vh;
+    text-align: center;
+    margin-left: 200px;
+    gap: 30px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    font-size: 18px;
+
+}
+.call {
+    background-color: rgb(49, 54, 119);
+    color: white;
+    height: 30px;
+    width: 170px;
+    max-width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 15px;
+    font-size: 20px;
+    margin: 0;
+    
+}
+img {
+    height: 70px;
+    width: 70px;
+    
+}
+.footer{
+    /* background-color: rgb(169, 212, 236); */
+    display: flex;
+    flex-wrap: wrap;
+    background-color: azure;
+    border: 2px solid rgb(153, 153, 158);;
+    margin-top: 8vh;
+    height: 40vh;
+}
+.footer-logo {
+    height: 80px;
+    width: 80px;
+}
+.about_company{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 18vh;
+    margin-top: 8vh;
+}
+.footer-img{
+    display: flex;
+    flex-wrap: wrap;
+}
+.foot-head {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+    margin-left: 2vh;
+}
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    height: 8vh;
+    width: 58vh;
+    color: rgb(159, 159, 165) ;
+    font-size: 2.5vh;
+    margin-left: -45vh;
+    margin-top: 18vh;
+}
+.explore {
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1.2vh;
+    margin-left: 45vh;
+    
+}
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10vh;
+}
+.mail {
+
+    margin-top: 10vh;
+    margin-left: 40vh;
+}
+.fa-phone {
+    margin-left: -4vh;
+    padding: 0%;
+}
+.fa-envelope{
+    margin-left: -4vh;
+    padding: 0%;
+}
+.fa-location-dot{
+    margin-left: -4vh;
+    padding: 0%;
+}
+.last{
+    height: 40px;
+    width: 100%;
+    background-color: azure;
+    text-align: center;
+}
+.last-paragraph {
+    color: rgb(138, 135, 135);
+}
