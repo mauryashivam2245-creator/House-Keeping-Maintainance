@@ -14,7 +14,7 @@
     position: relative;
     z-index: 2;
 
-    background-color: azure;
+    background-color: rgb(215, 250, 250);
     min-height: 80px;
     width: 100%;
     display: flex;
@@ -115,12 +115,12 @@ img {
     margin-top: 18vh;
 }
 .explore {
-    margin-top: 10vh;
+    margin-top: 8vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     gap: 1.2vh;
-    margin-left: 45vh;
+    margin-left: 10vh;
     
 }
 .footer-nav {
@@ -130,7 +130,7 @@ img {
 }
 .mail {
 
-    margin-top: 10vh;
+    margin-top: 8vh;
     margin-left: 40vh;
 }
 .fa-phone {
