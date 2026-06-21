@@ -4,16 +4,8 @@
     box-sizing: border-box;
 }
 .navbar {
-    /* background-color: azure;
-    height: 64px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; */
-    
     position: relative;
     z-index: 2;
-
     background-color: rgb(215, 250, 250);
     min-height: 80px;
     width: 100%;
@@ -22,7 +14,6 @@
     align-items: center;
     padding: 0 20px;
     flex-wrap: wrap;
-
 }
 a {
     text-decoration: none;
@@ -31,9 +22,7 @@ a {
 a:hover{
     background-color: rgb(218, 226, 226);
     border-radius: 10px;
-    /* height: 30px; */
     width: max-content;
-    /* border-bottom: 2px solid ; */
 }
 .section {
     display: flex;
@@ -76,7 +65,6 @@ img {
     
 }
 .footer{
-    /* background-color: rgb(169, 212, 236); */
     display: flex;
     flex-wrap: wrap;
     background-color: azure;
@@ -153,4 +141,46 @@ img {
 }
 .last-paragraph {
     color: rgb(138, 135, 135);
+}
+.first-head {
+    background-color: azure;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid rgb(182, 181, 181);
+}
+.first-content{
+    margin-left: 18vh;
+    margin-top: 8vh;
+}
+.heading{
+    color: rgb(155, 153, 153);
+}
+.roof {
+    font-size: 50px;
+}
+.take {
+    font-size: 20px;
+    color: grey;
+}
+.line2 {
+    font-size: 50px;
+    color: rgb(49, 54, 119);
+}
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-top: 33px;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+.main-image {
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+}
+.name {
+    color: rgb(49, 54, 119);
 }

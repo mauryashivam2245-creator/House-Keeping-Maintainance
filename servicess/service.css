@@ -4,16 +4,8 @@
     box-sizing: border-box;
 }
 .navbar {
-    /* background-color: azure;
-    height: 64px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; */
-    
     position: relative;
     z-index: 2;
-
     background-color: rgb(215, 250, 250);
     min-height: 80px;
     width: 100%;
@@ -357,4 +349,303 @@ img {
     font-size: 17px;
     align-items: center;
     text-align: center;
+}
+/* ==================== TABLET (768px and below) ==================== */
+@media (max-width: 768px) {
+    
+    .navbar {
+        flex-direction: column;
+        min-height: auto;
+        padding: 15px 10px;
+        gap: 15px;
+    }
+
+    .section {
+        margin-left: 0 !important;
+        font-size: 14px;
+        gap: 10px;
+    }
+
+    .call {
+        margin-left: 0 !important;
+        margin-top: 10px;
+        width: 150px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .first-head {
+        height: auto;
+        padding: 20px;
+    }
+
+    .first-content {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .roof {
+        font-size: 35px;
+    }
+
+    .take {
+        font-size: 16px;
+    }
+
+    .housekeeping {
+        margin-left: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-img {
+        height: 25vh;
+        width: 90vw;
+        max-width: 100%;
+    }
+
+    .service_div {
+        margin-left: 0;
+        margin-top: 20px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cleaning {
+        width: 90vw;
+        max-width: 100%;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+
+    .ac {
+        margin-left: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service_div2 {
+        margin-left: 0;
+        margin-top: 20px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .extra {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .site {
+        width: 90vw;
+        height: auto;
+        padding: 30px 20px;
+    }
+
+    .assesment {
+        margin-left: 0;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .about_company {
+        margin-left: 0;
+        margin-top: 0;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .paragraph {
+        margin-left: 0;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .explore {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .footer-nav {
+        gap: 0;
+    }
+
+    .mail {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 480px) {
+    
+    .navbar {
+        padding: 10px 5px;
+    }
+
+    .section {
+        font-size: 12px;
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .call {
+        width: 130px;
+        height: 30px;
+        font-size: 12px;
+        margin: 5px 0;
+    }
+
+    img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .first-head {
+        border-bottom: 1px solid rgb(182, 181, 181);
+    }
+
+    .first-content {
+        padding: 15px;
+    }
+
+    .roof {
+        font-size: 24px;
+    }
+
+    .take {
+        font-size: 14px;
+    }
+
+    .housekeeping {
+        margin-left: 0;
+        padding: 0 10px;
+    }
+
+    .main-heading {
+        font-size: 20px;
+    }
+
+    .main-paragraph {
+        font-size: 14px;
+    }
+
+    .main-img {
+        height: 200px;
+        width: 100%;
+    }
+
+    .font-heading {
+        font-size: 18px;
+    }
+
+    .font-heading2 {
+        font-size: 14px;
+    }
+
+    .cleaning {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .fa-wand-magic-sparkles,
+    .fa-droplet,
+    .fa-trash-can,
+    .fa-shoe-prints,
+    .fa-user-group,
+    .fa-bug,
+    .fa-wind,
+    .fa-wrench,
+    .fa-hammer,
+    .fa-fill {
+        font-size: 24px;
+        margin: 10px 0 0 0;
+    }
+
+    .font {
+        margin-left: 0;
+    }
+
+    .site {
+        width: 100%;
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .site-para {
+        font-size: 14px;
+    }
+
+    .assesment {
+        width: 90%;
+        height: 35px;
+        font-size: 13px;
+        margin: 15px auto 0;
+    }
+
+    .footer {
+        padding: 15px;
+    }
+
+    .footer-logo {
+        height: 60px;
+        width: 60px;
+    }
+
+    .footer-img {
+        justify-content: center;
+    }
+
+    .foot-head {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .explore {
+        width: 100%;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .mail {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .mail p {
+        font-size: 13px;
+    }
+
+    .last-paragraph {
+        font-size: 12px;
+    }
+}
+@media (min-width: 1200px) {
+    
+    .section {
+        gap: 30px;
+    }
+
+    .service_div {
+        gap: 20px;
+    }
+
+    .cleaning {
+        flex: 1 1 320px;
+    }
 }

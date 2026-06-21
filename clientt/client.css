@@ -24,9 +24,7 @@ a {
 a:hover{
     background-color: rgb(218, 226, 226);
     border-radius: 10px;
-    /* height: 30px; */
     width: max-content;
-    /* border-bottom: 2px solid ; */
 }
 .section {
     display: flex;
@@ -69,7 +67,6 @@ img {
     
 }
 .footer{
-    /* background-color: rgb(169, 212, 236); */
     display: flex;
     flex-wrap: wrap;
     background-color: azure;
@@ -154,7 +151,6 @@ img {
     height: 300px;
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-evenly; */
     border-bottom: 2px solid rgb(182, 181, 181);
 }
 .first-content{
@@ -176,7 +172,6 @@ img {
     flex-wrap: wrap;
     margin-top: 8vh;
     margin-left: 120px;
-    /* margin-right: 13vh; */
     gap: 8vh;
 }
 .all-company{
@@ -204,8 +199,7 @@ img {
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-evenly; */
-    /* border-bottom: 2px solid rgb(182, 181, 181); */
+
 }
 .photos {
     margin-top: 40px;
@@ -222,4 +216,290 @@ img {
     margin-top: 10px;
     color: rgb(138, 135, 135);
     font-size: 18px;
+}
+@media (max-width: 768px) {
+    
+    .navbar {
+        flex-direction: column;
+        min-height: auto;
+        padding: 15px 10px;
+        gap: 15px;
+    }
+
+    .section {
+        margin-left: 0 !important;
+        font-size: 14px;
+        gap: 10px;
+    }
+
+    .call {
+        margin-left: 0 !important;
+        margin-top: 10px;
+        width: 150px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .first-head {
+        height: auto;
+        padding: 20px;
+    }
+
+    .first-content {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .roof {
+        font-size: 35px;
+    }
+
+    .take {
+        font-size: 16px;
+    }
+
+    .company {
+        margin-left: 20px;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .all-company {
+        width: 200px;
+        height: 60px;
+        gap: 8vh;
+    }
+
+    .fa-building {
+        font-size: 18px;
+        margin-top: 18px;
+        margin-left: 10px;
+    }
+
+    .name {
+        margin-top: 20px;
+        margin-left: -30px;
+        font-size: 14px;
+    }
+
+    .last2 {
+        height: auto;
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    .photos {
+        margin-top: 20px;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .dig {
+        height: 300px;
+        width: 200px;
+    }
+
+    .last-heading {
+        font-size: 14px;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .about_company {
+        margin-left: 0;
+        margin-top: 0;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .paragraph {
+        margin-left: 0;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .explore {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .footer-nav {
+        gap: 0;
+    }
+
+    .mail {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .navbar {
+        padding: 10px 5px;
+    }
+
+    .section {
+        font-size: 12px;
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .call {
+        width: 130px;
+        height: 30px;
+        font-size: 12px;
+        margin: 5px 0;
+    }
+
+    img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .first-head {
+        border-bottom: 1px solid rgb(182, 181, 181);
+    }
+
+    .first-content {
+        padding: 15px;
+    }
+
+    .roof {
+        font-size: 24px;
+    }
+
+    .take {
+        font-size: 14px;
+    }
+
+    .company {
+        margin-left: 10px;
+        gap: 12px;
+        justify-content: center;
+    }
+
+    .all-company {
+        width: 100%;
+        height: 60px;
+        gap: 6vh;
+        padding: 0 10px;
+    }
+
+    .fa-building {
+        font-size: 16px;
+        margin-top: 18px;
+        margin-left: 8px;
+    }
+
+    .name {
+        margin-top: 20px;
+        margin-left: -25px;
+        font-size: 12px;
+    }
+
+    .last2 {
+        height: auto;
+        padding: 15px;
+        margin-top: 30px;
+    }
+
+    .heading2 {
+        font-size: 14px;
+    }
+
+    .line {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .photos {
+        margin-top: 15px;
+        gap: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-img {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .dig {
+        height: 250px;
+        width: 150px;
+        border-radius: 20px;
+    }
+
+    .last-heading {
+        font-size: 12px;
+        margin-top: 10px;
+        padding: 0 10px;
+    }
+
+    .footer {
+        padding: 15px;
+    }
+
+    .footer-logo {
+        height: 60px;
+        width: 60px;
+    }
+
+    .footer-img {
+        justify-content: center;
+    }
+
+    .foot-head {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .explore {
+        width: 100%;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .mail {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .mail p {
+        font-size: 13px;
+    }
+
+    .last-paragraph {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    .company {
+        gap: 10vh;
+    }
+
+    .photos {
+        gap: 80px;
+    }
 }
