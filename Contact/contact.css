@@ -167,3 +167,84 @@ img {
     font-size: 20px;
     color: grey;
 }
+.three-div {
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 10px;
+    height: 120px;
+    width: 500px;
+    /* background-color: black; */
+}
+.email {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 40px;
+    margin-top:80px;
+    margin-left:80px;
+}
+.main-div {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.send {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 13vh;
+    margin-left: 30vh;
+    border: 2px solid rgb(221, 220, 220);
+    width: 500px;
+    border-radius: 10px;
+    height: 600px;
+}
+.enquiry {
+    /* display: flex;
+    flex-wrap: wrap; */
+    margin-top: 20px;
+    margin-left: 20px; 
+}
+.upper {
+    color: gray;
+}
+.input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-top: 40px;
+}
+.text {
+    height: 40px;
+    width: 180px;
+    border-radius: 10px;
+    /* border-color: gray; */
+}
+.msg {
+    height: 180px;
+    width: 400px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.input-head {
+    color: rgb(77, 78, 78);
+}
+.submit {
+    /* margin-top: 230px; */
+    margin-left: 10px;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(49, 54, 119);
+    color: white;
+    border-radius: 10px;
+}
+.submit:hover {
+    background-color: rgb(82, 87, 150);
+}
+.tt {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.phone-para {
+    margin-top: -20px;
+    margin-left: 20px;
+}
