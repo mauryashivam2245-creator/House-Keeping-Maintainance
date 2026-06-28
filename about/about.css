@@ -4,6 +4,27 @@
     box-sizing: border-box;
     /* outline: 1px solid red; */
 }
+body {
+    position: relative;
+
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("/Logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px;
+
+    opacity: 0.2;
+
+    z-index: -1;
+}
 .navbar {
     background-color: rgb(215, 250, 250);
     position: relative;
