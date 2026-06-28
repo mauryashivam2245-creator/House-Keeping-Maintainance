@@ -3,14 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
-.navbar {
-    /* background-color: azure;
-    height: 64px;
+body {
+    position: relative;
+
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; */
-    
+    height: 100%;
+
+    background-image: url("/Logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px;
+
+    opacity: 0.2;
+
+    z-index: -1;
+}
+.navbar {
     position: relative;
     z-index: 2;
 
@@ -22,18 +36,15 @@
     align-items: center;
     padding: 0 20px;
     flex-wrap: wrap;
-
 }
 a {
     text-decoration: none;
-    border-bottom: 2px solid transparent;
+    color: black;
+    transition:all 0.3s ease;
 }
 a:hover{
-    background-color: rgb(218, 226, 226);
-    border-radius: 10px;
-    /* height: 30px; */
-    width: max-content;
-    /* border-bottom: 2px solid ; */
+    transform: translate Y(-10px);
+    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.5);
 }
 .section {
     display: flex;
@@ -68,7 +79,12 @@ a:hover{
     margin-top: 15px;
     font-size: 20px;
     margin: 0;
-    
+    transition:all 0.3s ease;
+}
+.call:hover {
+    border: 3px solid rgb(49, 54, 119);
+    transform: translate Y(-10px);
+    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.5);
 }
 img {
     height: 70px;
@@ -89,8 +105,6 @@ img {
     background-image: url("hero-cleaning.png");
     background-size: cover;
     background-position: center;
-    /* background-repeat: no-repeat; */
-    
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -99,7 +113,6 @@ img {
 }
 .main {
     margin-left: 5%;
-    margin-top: 8vh;
     max-width: 700px;
     position: relative;
     z-index: 2;
@@ -109,7 +122,7 @@ img {
     top: 0;
     left: 0;
     width: 100%;
-    height: 115vh;
+    height: 702px;
 
     background: linear-gradient(
         to right,
@@ -125,14 +138,14 @@ img {
     border: 2px solid rgb(167, 163, 163);
     border-radius: 20px;
     text-align: center;
-    background-color:white;
-    width: 30vh;
+    width: 200px;
 }
 .fh{
     font-size: 10vh;
 }
 .sh{
     font-size: 11vh;
+    color: rgb(49, 54, 119);
     
 }
 .th{
@@ -140,7 +153,7 @@ img {
 
 }
 .second_content{
-    color: rgb(88, 88, 87);
+    color: #334455;
 }
 .both_button{
     display: flex;
@@ -153,11 +166,23 @@ img {
     border-radius: 10px;
     background-color: rgb(49, 54, 119);
     color: white;
+    transition:all  ease;
+}
+.request:hover{
+    border: 3px solid rgb(49, 54, 119);
+    transform: translate Y(-10px);
+    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.5);
 }
 .view_services{
     height: 5vh;
     width: 18vh;
     border-radius: 10px;
+    transition:all  ease;
+}
+.view_services:hover {
+    border: 3px solid rgb(49, 54, 119);
+    transform: translate Y(-10px);
+    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.5);
 }
 .sec_main{
     display: flex;
@@ -168,7 +193,7 @@ img {
     height: 25vh;
     min-height: 150px;
     width: 100%;
-    background-color: white;
+    /* background-color: white; */
     gap: 30px;
     border: 2px solid rgb(196, 196, 196);
 }
@@ -193,7 +218,6 @@ img {
     z-index: 2;
     margin-top: 8vh;
     margin-left: 20vh;
-    background-color:white;
     margin: 60px auto;
     padding: 0 20px;
     max-width: 1200px;
@@ -222,17 +246,26 @@ img {
     margin-top: 10vh;
 }
 .cleaning{
+    display: flex;
     flex: 1 1 320px;
     max-width: 380px;
     margin: 0;
-    height: 25vh;
-    width: 50vh;
+    height: 300px;
+    width: 350px;
     border: 2px solid rgb(153, 153, 158);
+    background-color: azure;
     border-radius: 10px;
     margin-left: 4vh;
+    transition:all 0.3s ease;
 }
 .cleaning:hover{
     border: 3px solid rgb(49, 54, 119);
+    transform: translate Y(-10px);
+    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.5);
+}
+.cleaning-img {
+    height: 150px;
+    width: 280px;
 }
 .fa-wand-magic-sparkles{
     font-size: 3vh;
@@ -267,10 +300,11 @@ img {
 .font-heading{
     font-size: 3.5vh;
     height: 7vh;
+    color: rgb(49, 54, 119) ;
 }
 .font-heading2{
     font-size: 2.5vh;
-    color: rgb(159, 159, 165);
+    color: #334455;
     height: 5vh;
 }
 .font{
@@ -280,12 +314,11 @@ img {
     font-size: 3vh;
     margin-left: 20vh;
     margin-top: 8vh;
-
 }
 .company{
     margin-top: 8vh;
     margin-left: 20vh;
-    background-color:white;
+    /* background-color:white; */
 }
 .marquee{
     overflow: hidden;
@@ -298,12 +331,11 @@ img {
     animation: move 20s linear infinite;
     margin-top: 8vh;
 }
-
 .track img{
-    height: 80px;
+    height: 150px;
+    width: 200px;
     gap:50px; 
 }
-
 @keyframes move{
     from{
         transform: translateX(100%);
@@ -313,7 +345,6 @@ img {
     }
 }
 .footer{
-    /* background-color: rgb(169, 212, 236); */
     display: flex;
     flex-wrap: wrap;
     background-color: azure;
@@ -390,6 +421,9 @@ img {
 }
 .last-paragraph {
     color: rgb(138, 135, 135);
+}
+.black {
+    color: black;
 }
 @media (max-width: 768px){
 
