@@ -38,12 +38,14 @@ body::before {
 }
 a {
     text-decoration: none;
+    color: black;
     border-bottom: 2px solid transparent;
+    transition: all 0.3 ease;
 }
 a:hover{
-    background-color: rgb(218, 226, 226);
-    border-radius: 10px;
-    width: max-content;
+    /* border: 3px solid rgb(49, 54, 119); */
+    transform: translate Y(-10px);
+    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.5);
 }
 .section {
     display: flex;
@@ -118,7 +120,7 @@ img {
     flex-direction: column;
     height: 8vh;
     width: 58vh;
-    color: rgb(159, 159, 165) ;
+    /* color:#334455 ; */
     font-size: 2.5vh;
     margin-left: -45vh;
     margin-top: 18vh;
@@ -175,15 +177,13 @@ img {
     margin-left: 18vh;
     margin-top: 8vh;
 }
-.heading{
-    color: rgb(155, 153, 153);
-}
 .roof {
     font-size: 50px;
+    color: rgb(49,54,119);
 }
 .take {
     font-size: 20px;
-    color: grey;
+    color: #334455;
 }
 .line2 {
     font-size: 50px;
@@ -201,6 +201,12 @@ img {
     height: 400px;
     width: 300px;
     border-radius: 30px;
+    transition: all 0.3 ease;
+}
+.main-image:hover{
+    border: 3px solid rgb(49, 54, 119);
+    transform: translate Y(-10px);
+    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.5);
 }
 .name {
     color: rgb(49, 54, 119);

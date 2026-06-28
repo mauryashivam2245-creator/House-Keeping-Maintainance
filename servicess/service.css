@@ -421,6 +421,12 @@ img {
     border: 2px solid rgb(218, 215, 215);
     border-radius: 10px;
     margin-top: 5vh;
+    transition: all 0.3 ease;
+}
+.site:hover {
+    border: 3px solid rgb(49, 54, 119);
+    transform: translate Y(-10px);
+    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.5);
 }
 .site-para{
     color: rgb(124, 122, 122);
@@ -438,6 +444,12 @@ img {
     display: flex;
     justify-content: center;
     margin-left: 24vh;
+    transition: all 0.3 ease;
+}
+.assesment:hover{
+    border: 3px solid rgb(49, 54, 119);
+    transform: translate Y(-10px);
+    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.5);
 }
 #assesment {
     /* color: white; */

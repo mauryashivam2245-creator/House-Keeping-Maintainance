@@ -39,14 +39,13 @@ body::before {
 }
 a {
     text-decoration: none;
+    color: black;
     border-bottom: 2px solid transparent;
+    transition: all 0.3 ease;
 }
 a:hover{
-    background-color: rgb(218, 226, 226);
-    border-radius: 10px;
-    /* height: 30px; */
-    width: max-content;
-    /* border-bottom: 2px solid ; */
+    transform: translate Y(-10px);
+    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.5);
 }
 .section {
     display: flex;
@@ -88,7 +87,6 @@ img {
     width: 70px;
 }
 .footer{
-    /* background-color: rgb(169, 212, 236); */
     display: flex;
     flex-wrap: wrap;
     background-color: azure;
@@ -121,7 +119,6 @@ img {
     flex-direction: column;
     height: 8vh;
     width: 58vh;
-    color: rgb(159, 159, 165) ;
     font-size: 2.5vh;
     margin-left: -45vh;
     margin-top: 18vh;
@@ -133,7 +130,6 @@ img {
     flex-direction: column;
     gap: 1.2vh;
     margin-left: 10vh;
-    
 }
 .footer-nav {
     display: flex;
@@ -141,7 +137,6 @@ img {
     gap: 10vh;
 }
 .mail {
-
     margin-top: 8vh;
     margin-left: 40vh;
 }
@@ -177,23 +172,26 @@ img {
 .first-content{
     margin-left: 18vh;
     margin-top: 8vh;
-}
-.heading{
-    color: rgb(155, 153, 153);
-}
+} 
 .roof {
     font-size: 50px;
+    color: rgb(49,54,119);
 }
 .take {
     font-size: 20px;
-    color: grey;
+    color: #334455;
 }
 .three-div {
-    border: 2px solid rgb(221, 221, 221);
+    border: 2px solid #334455;
     border-radius: 10px;
     height: 120px;
     width: 500px;
-    /* background-color: black; */
+    transition: all 0.3 ease;
+}
+.three-div:hover {
+    border: 3px solid rgb(49, 54, 119);
+    transform: translate Y(-10px);
+    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.5);
 }
 .email {
     display: flex;
@@ -206,17 +204,28 @@ img {
 .main-div {
     display: flex;
     flex-wrap: wrap;
-
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 20px;
 }
 .send {
     display: flex;
     flex-wrap: wrap;
     margin-top: 13vh;
     margin-left: 30vh;
-    border: 2px solid rgb(221, 220, 220);
+    border: 2px solid #334455;
     width: 500px;
     border-radius: 10px;
     height: 600px;
+    transition: all 0.3 ease;
+}
+.send:hover {
+    border: 3px solid rgb(49, 54, 119);
+    transform: translate Y(-10px);
+    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.5);
 }
 .enquiry {
     /* display: flex;
@@ -225,7 +234,7 @@ img {
     margin-left: 20px; 
 }
 .upper {
-    color: gray;
+    color: #334455;
 }
 .input {
     display: flex;
@@ -233,25 +242,46 @@ img {
     justify-content: space-evenly;
     gap: 30px;
     margin-top: 40px;
+
 }
 .text {
     height: 40px;
     width: 180px;
     border-radius: 10px;
-    /* border-color: gray; */
+    border-color: #334455;
+    transition: all 0.3 ease;
+    font-size: 15px;
+    gap: 30px;
+}
+.text:hover {
+    border: 3px solid rgb(49, 54, 119);
+    transform: translate Y(-10px);
+    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.5);
 }
 .msg {
     height: 180px;
     width: 400px;
     margin-top: 5px;
     border-radius: 10px;
+    font-size: 15px;
+    transition: all 0.3 ease;
+}
+.msg:hover {
+    border: 3px solid rgb(49, 54, 119);
+    transform: translate Y(-10px);
+    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.5);
 }
 .input-head {
-    color: rgb(77, 78, 78);
+    color:  rgb(49, 54, 119);
+}
+.num{
+    color:  rgb(49, 54, 119);
+}
+.number {
+    color: #334455;
 }
 .submit {
-    /* margin-top: 230px; */
-    margin-left: 10px;
+    margin-left: 140px;
     height: 50px;
     width: 150px;
     background-color: rgb(49, 54, 119);
@@ -259,7 +289,9 @@ img {
     border-radius: 10px;
 }
 .submit:hover {
-    background-color: rgb(82, 87, 150);
+    border: 3px solid rgb(49, 54, 119);
+    transform: translate Y(-10px);
+    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.5);
 }
 .tt {
     margin-left: 50px;

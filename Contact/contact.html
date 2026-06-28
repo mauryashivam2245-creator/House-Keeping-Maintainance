@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>Contact</title>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+    <script src="contact.js" defer></script>
 </head>
 <body>
     <header>
@@ -42,8 +44,9 @@
                     <div class="tt">
                         <i class="fa-solid fa-phone"></i>
                         <div class="phone-para">
-                            <p><h3>Phone</h3>9967650824</p>
-                            <p>8779087964</p>
+                            <h3 class="num">Phone</h3>
+                            <p class="number">9967650824</p>
+                            <p class="number">8779087964</p>
                         </div>
                     </div>
                 </div>
@@ -51,8 +54,9 @@
                     <div class="tt">
                         <i class="fa-solid fa-envelope"></i>
                         <div class="phone-para">
-                            <p><h3>Email</h3>pandeysachin505@gmail.com</p>
-                            <p>shaatuank7@gmail.com</p>
+                            <h3 class="num">Email</h3>
+                            <p class="number">pandeysachin505@gmail.com</p>
+                            <p class="number">shaatuank7@gmail.com</p>
                         </div>
                     </div>
                 </div>
@@ -60,8 +64,9 @@
                     <div class="tt">
                         <i class="fa-solid fa-location-dot"></i>
                         <div class="phone-para">
-                            <p><h3>Address</h3>A|9 Bindra Complex, Andheri East,</p>
-                            <p>Mumbai, Maharashtra</p>
+                            <h3 class="num">Address</h3>
+                            <p class="number">A|9 Bindra Complex, Andheri East,</p>
+                            <p class="number">Mumbai, Maharashtra</p>
                         </div>
                     </div>
                 </div>
@@ -69,35 +74,51 @@
             <div class="send">
                 <div class="enquiry">
                     <div>
-                        <h2>Send an enquiry</h2>
+                        <h2 class="num">Send an enquiry</h2>
                         <h3 class="upper">This will open your email client with the details pre-filled.</h3>
                     </div>
                     <div class="input">
-                        <!-- <form> -->
-                            <div>
-                                <h3 class="input-head">Your name</h3>
-                                <input class="text" type="text">
+                        <form id="contactForm">
+                            <div class="box">
+                                <div>
+                                    <h3 class="input-head">Your name</h3>
+                                    <input class="text" name="name" placeholder="Your name">
+                                </div>
+                            
+                                <br>
+                            
+                                <div>
+                                    <h3 class="input-head">Company</h3>
+                                    <input class="text" name="company" placeholder="company">
+                                </div>
+                            
+                                <br>
+                            
+                                <div>
+                                    <h3 class="input-head">Phone</h3>
+                                    <input class="text" name="phone" placeholder="Phone">
+                                </div>
+                            
+                                <br>
+                            
+                                <div>
+                                    <h3 class="input-head">Email</h3>
+                                    <input class="text" name="email" placeholder="Email">
+                                </div>
+                                <br>
+                                <div>
+                                    <h3 class="input-head">Message</h3>
+                                    <input class="msg" name="message" placeholder="Tell us about your site and the services you need.">
+                                </div>
                             </div>
+                            <br>
                             <div>
-                                <h3 class="input-head">Company</h3>
-                                <input class="text" type="text">
                             </div>
-                            <div>
-                                <h3 class="input-head">Phone</h3>
-                                <input class="text" type="text">
-                            </div>
-                            <div>
-                                <h3 class="input-head">Email</h3>
-                                <input class="text" type="text">
-                            </div>
-                            <div>
-                                <h3 class="input-head">Message</h3>
-                                <input class="msg" type="text" placeholder="Tell us about your site and the services you need.">
-                            </div>
+                            <br>
                             <div>
                                <button class="submit">Submit</button>
                             </div>
-                        <!-- </form> -->
+                        </form>
                     </div>
                 </div>
             </div>
