@@ -1,10 +1,3 @@
-const assesment = document.querySelector("#assesment")
-
-assesment.addEventListener('click', () => {
-    window.location.href = "../Contact/contact.html"
-})
-
-
 const elements = document.querySelectorAll(".scroll-left, .scroll-right");
 
 const observer = new IntersectionObserver((entries) => {

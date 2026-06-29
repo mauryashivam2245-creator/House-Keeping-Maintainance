@@ -323,6 +323,16 @@ img {
     transform: translate Y(-10px);
     box-shadow: 0 10px 30px rgba(0, 102, 255, 0.5);
 }
+.scroll-left {
+    opacity: 0;
+    transform: translateX(-120px);
+    transition: all 5s ease;
+}
+
+.scroll-left.show {
+    opacity: 1;
+    transform: translateX(-10px);
+}
 .fa-wand-magic-sparkles{
     font-size: 3vh;
     margin-top: 3vh;
