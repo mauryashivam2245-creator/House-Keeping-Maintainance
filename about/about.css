@@ -236,24 +236,6 @@ img {
     margin-top:-50px;
     margin-bottom:-50px;
 }
-
-.hex{
-    /* width:320px;
-    height:250px; */
-    /* clip-path:polygon(
-        25% 6.7%,
-        75% 6.7%,
-        100% 50%,
-        75% 93.3%,
-        25% 93.3%,
-        0% 50%
-    ); */
-    /* overflow:hidden; */
-    /* display: flex;
-    flex-wrap: wrap;
-    flex-direction: column; */
-}
-
 .hex img{
     width: 320px;;
     height: 250px;
