@@ -211,3 +211,173 @@ img {
 .name {
     color: rgb(49, 54, 119);
 }
+
+/* ===== Tablet & small desktop ===== */
+@media (max-width: 968px) {
+    .navbar {
+        justify-content: center;
+        text-align: center;
+    }
+    .section {
+        margin-left: 0;
+        margin-top: 10px;
+        justify-content: center;
+    }
+    .call {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .first-content {
+        margin-left: 5vh;
+        margin-top: 4vh;
+    }
+    .roof {
+        font-size: 38px;
+    }
+    .line2 {
+        font-size: 38px;
+    }
+    .photo {
+        justify-content: center;
+    }
+    .main-image {
+        height: 320px;
+        width: 260px;
+    }
+    .footer {
+        height: auto;
+        padding: 20px 0;
+    }
+    .about_company {
+        margin-left: 5vh;
+        margin-top: 4vh;
+        flex-direction: column;
+    }
+    .foot-head {
+        margin-left: 0;
+        margin-top: 2vh;
+    }
+    .paragraph {
+        margin-left: 0;
+        margin-top: 2vh;
+        width: 90%;
+    }
+    .explore {
+        margin-left: 5vh;
+        margin-top: 4vh;
+    }
+    .mail {
+        margin-left: 5vh;
+        margin-top: 4vh;
+    }
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        min-height: auto;
+        padding: 10px;
+    }
+    .image {
+        justify-content: center;
+    }
+    .section {
+        flex-direction: column;
+        gap: 12px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .call {
+        width: 100%;
+        max-width: 250px;
+        height: 36px;
+        margin: 10px 0;
+    }
+    .first-head {
+        height: auto;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .first-content {
+        margin-left: 0;
+        padding: 0 15px;
+    }
+    .roof {
+        font-size: 28px;
+    }
+    .take {
+        font-size: 16px;
+    }
+    .line2 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .line1 {
+        text-align: center;
+    }
+    .para .first-content {
+        text-align: center;
+    }
+    .photo {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        gap: 20px;
+    }
+    .img1 {
+        text-align: center;
+    }
+    .main-image {
+        height: 280px;
+        width: 90%;
+        max-width: 300px;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 4vh;
+    }
+    .about_company {
+        margin-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-img {
+        justify-content: center;
+    }
+    .foot-head {
+        margin-left: 0;
+        align-items: center;
+    }
+    .paragraph {
+        margin-left: 0;
+        width: 85%;
+        text-align: center;
+        font-size: 2vh;
+    }
+    .explore {
+        margin-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-nav {
+        gap: 4vh;
+        justify-content: center;
+    }
+    .mail {
+        margin-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+    .fa-phone,
+    .fa-envelope,
+    .fa-location-dot {
+        margin-left: 0;
+    }
+    .last-paragraph {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+}

@@ -467,32 +467,131 @@ img {
     align-items: center;
     text-align: center;
 }
-@media (max-width: 768px) {
-    
+
+/* =========================================================
+   RESPONSIVE MEDIA QUERIES
+   Append this to the bottom of service.css
+   ========================================================= */
+
+/* ---------- Tablets & small laptops (≤ 1200px) ---------- */
+@media (max-width: 1200px) {
+    .service_div,
+    .service_div2,
+    .service_div3 {
+        margin-left: 0;
+        width: 100%;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .cleaning,
+    .cleaning2,
+    .cleaning3 {
+        margin-left: 0;
+    }
+
+    .housekeeping,
+    .ac,
+    .extra {
+        margin-left: 40px;
+    }
+
+    .site {
+        width: 90vw;
+    }
+}
+
+/* ---------- Tablets (≤ 992px) ---------- */
+@media (max-width: 992px) {
     .navbar {
-        flex-direction: column;
-        min-height: auto;
-        padding: 15px 10px;
+        justify-content: center;
+        text-align: center;
         gap: 15px;
+        padding: 15px 20px;
     }
 
     .section {
-        margin-left: 0 !important;
-        font-size: 14px;
-        gap: 10px;
+        margin: 0;
+        margin-left: 0;
+        gap: 15px;
+        font-size: 16px;
     }
 
     .call {
-        margin-left: 0 !important;
-        margin-top: 10px;
-        width: 150px;
-        height: 35px;
-        font-size: 14px;
+        margin: 0;
     }
 
-    img {
-        height: 50px;
-        width: 50px;
+    .first-content {
+        margin-left: 30px;
+        text-align: left;
+    }
+
+    .roof {
+        font-size: 38px;
+    }
+
+    .housekeeping,
+    .ac,
+    .extra {
+        margin-left: 20px;
+        justify-content: center;
+    }
+
+    .main-img {
+        margin-left: 0;
+        width: 90%;
+        max-width: 500px;
+    }
+
+    .service_div,
+    .service_div2,
+    .service_div3 {
+        margin-top: 30px;
+        gap: 20px;
+    }
+
+    .about_company {
+        margin-left: 4vh;
+    }
+
+    .paragraph {
+        margin-left: 0;
+        width: 90%;
+    }
+
+    .explore {
+        margin-left: 4vh;
+    }
+
+    .mail {
+        margin-left: 4vh;
+    }
+
+    .footer {
+        height: auto;
+        padding: 20px 0;
+    }
+}
+
+/* ---------- Mobile landscape / large phones (≤ 768px) ---------- */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        min-height: auto;
+        padding: 15px;
+    }
+
+    .section {
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 15px;
+        gap: 12px;
+        margin-top: 10px;
+    }
+
+    .call {
+        margin-top: 10px;
+        width: 160px;
     }
 
     .first-head {
@@ -502,140 +601,125 @@ img {
 
     .first-content {
         margin-left: 0;
-        margin-top: 0;
+        margin-top: 20px;
+        text-align: center;
     }
 
     .roof {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .take {
         font-size: 16px;
     }
 
-    .housekeeping {
-        margin-left: 20px;
+    .housekeeping,
+    .ac,
+    .extra {
         flex-direction: column;
         align-items: center;
+        margin-left: 0;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .main-heading {
+        font-size: 24px;
+    }
+
+    .main-paragraph {
+        font-size: 16px;
     }
 
     .main-img {
-        height: 25vh;
-        width: 90vw;
-        max-width: 100%;
-    }
-
-    .service_div {
-        margin-left: 0;
-        margin-top: 20px;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .cleaning {
-        width: 90vw;
-        max-width: 100%;
-        margin-left: 0;
-        margin-bottom: 15px;
-    }
-
-    .ac {
-        margin-left: 20px;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .service_div2 {
-        margin-left: 0;
-        margin-top: 20px;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .extra {
-        margin-left: 20px;
-        margin-top: 20px;
-    }
-
-    .site {
-        width: 90vw;
         height: auto;
-        padding: 30px 20px;
+        width: 100%;
+        max-width: 400px;
+        margin-left: 0;
     }
 
-    .assesment {
+    .service_div,
+    .service_div2,
+    .service_div3 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        padding: 0 15px;
+        gap: 20px;
+    }
+
+    .cleaning,
+    .cleaning2,
+    .cleaning3 {
+        width: 100%;
+        max-width: 400px;
         margin-left: 0;
+        height: auto;
+        padding-bottom: 15px;
     }
 
     .footer {
         flex-direction: column;
         height: auto;
-        padding: 20px;
+        text-align: center;
     }
 
     .about_company {
-        margin-left: 0;
-        margin-top: 0;
         flex-direction: column;
         align-items: center;
-        text-align: center;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .foot-head {
+        margin-left: 0;
+        align-items: center;
     }
 
     .paragraph {
         margin-left: 0;
-        margin-top: 15px;
-        width: 100%;
+        width: 90%;
+        text-align: center;
     }
 
     .explore {
         margin-left: 0;
-        margin-top: 20px;
+        align-items: center;
+        margin-top: 30px;
     }
 
     .footer-nav {
-        gap: 0;
+        gap: 10px;
+        justify-content: center;
     }
 
     .mail {
         margin-left: 0;
-        margin-top: 20px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .fa-phone,
+    .fa-envelope,
+    .fa-location-dot {
+        margin-left: 0;
+    }
+
+    .site {
+        width: 95vw;
+        height: auto;
+        padding: 30px 15px;
+    }
+
+    .assesment {
+        margin-left: 0;
     }
 }
+
+/* ---------- Small phones (≤ 480px) ---------- */
 @media (max-width: 480px) {
-    
-    .navbar {
-        padding: 10px 5px;
-    }
-
-    .section {
-        font-size: 12px;
-        gap: 8px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .call {
-        width: 130px;
-        height: 30px;
-        font-size: 12px;
-        margin: 5px 0;
-    }
-
-    img {
-        height: 40px;
-        width: 40px;
-    }
-
-    .first-head {
-        border-bottom: 1px solid rgb(182, 181, 181);
-    }
-
-    .first-content {
-        padding: 15px;
-    }
-
     .roof {
         font-size: 24px;
     }
@@ -644,60 +728,31 @@ img {
         font-size: 14px;
     }
 
-    .housekeeping {
-        margin-left: 0;
-        padding: 0 10px;
+    .section {
+        font-size: 13px;
+        gap: 8px;
     }
 
-    .main-heading {
+    .call {
+        font-size: 14px;
+        width: 140px;
+        height: 32px;
+    }
+
+    .main-heading h2 {
         font-size: 20px;
     }
 
-    .main-paragraph {
-        font-size: 14px;
-    }
-
-    .main-img {
-        height: 200px;
-        width: 100%;
-    }
-
     .font-heading {
-        font-size: 18px;
+        font-size: 2.8vh;
     }
 
     .font-heading2 {
-        font-size: 14px;
+        font-size: 2vh;
     }
 
-    .cleaning {
-        width: 100%;
-        height: auto;
-        padding: 15px;
-    }
-
-    .fa-wand-magic-sparkles,
-    .fa-droplet,
-    .fa-trash-can,
-    .fa-shoe-prints,
-    .fa-user-group,
-    .fa-bug,
-    .fa-wind,
-    .fa-wrench,
-    .fa-hammer,
-    .fa-fill {
-        font-size: 24px;
-        margin: 10px 0 0 0;
-    }
-
-    .font {
-        margin-left: 0;
-    }
-
-    .site {
-        width: 100%;
-        height: auto;
-        padding: 20px 10px;
+    .site h1 {
+        font-size: 22px;
     }
 
     .site-para {
@@ -705,14 +760,8 @@ img {
     }
 
     .assesment {
-        width: 90%;
-        height: 35px;
-        font-size: 13px;
-        margin: 15px auto 0;
-    }
-
-    .footer {
-        padding: 15px;
+        width: 170px;
+        height: 36px;
     }
 
     .footer-logo {
@@ -720,48 +769,8 @@ img {
         width: 60px;
     }
 
-    .footer-img {
-        justify-content: center;
-    }
-
-    .foot-head {
-        margin-left: 0;
-        text-align: center;
-    }
-
-    .explore {
-        width: 100%;
-    }
-
-    .footer-nav {
-        flex-direction: column;
-        gap: 5px;
-    }
-
-    .mail {
-        width: 100%;
-        font-size: 14px;
-    }
-
-    .mail p {
-        font-size: 13px;
-    }
-
-    .last-paragraph {
-        font-size: 12px;
-    }
-}
-@media (min-width: 1200px) {
-    
-    .section {
-        gap: 30px;
-    }
-
-    .service_div {
-        gap: 20px;
-    }
-
-    .cleaning {
-        flex: 1 1 320px;
+    img {
+        height: 50px;
+        width: 50px;
     }
 }

@@ -301,3 +301,149 @@ img {
     margin-top: -20px;
     margin-left: 20px;
 }
+
+/* ===== Tablet (≤1024px) ===== */
+@media (max-width: 1024px) {
+    .navbar {
+        justify-content: center;
+        gap: 15px;
+    }
+    .section {
+        margin-left: 0;
+        margin-top: 0;
+        gap: 20px;
+    }
+    .call {
+        margin-left: 0;
+    }
+
+    .main-div {
+        flex-direction: column;
+        align-items: center;
+    }
+    .email {
+        margin-left: 20px;
+        align-items: center;
+    }
+    .three-div {
+        width: 90vw;
+        max-width: 500px;
+    }
+    .send {
+        margin-left: 0;
+        width: 90vw;
+        max-width: 500px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .msg {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 20px 0;
+    }
+    .about_company {
+        margin-left: 0;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .paragraph {
+        margin-left: 0;
+        width: 80vw;
+        text-align: center;
+    }
+    .explore {
+        margin-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-nav {
+        gap: 10px;
+    }
+    .mail {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+/* ===== Mobile (≤600px) ===== */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        padding: 15px 10px;
+        min-height: auto;
+    }
+    .section {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 16px;
+    }
+    .call {
+        margin: 10px 0;
+    }
+
+    .first-head {
+        height: auto;
+        padding: 30px 0;
+    }
+    .first-content {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .roof {
+        font-size: 32px;
+    }
+    .take {
+        font-size: 16px;
+    }
+
+    .email {
+        margin-left: 0;
+        margin-top: 30px;
+        width: 100%;
+        align-items: center;
+    }
+    .three-div {
+        width: 95vw;
+        height: auto;
+        padding: 10px;
+    }
+    .tt {
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+
+    .send {
+        width: 95vw;
+    }
+    .box {
+        margin-left: 0;
+        justify-content: center;
+    }
+    .text {
+        width: 90%;
+        max-width: 280px;
+    }
+    .msg {
+        width: 90%;
+        max-width: 280px;
+    }
+    .submit {
+        margin-left: 0;
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+    }
+}

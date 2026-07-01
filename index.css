@@ -425,121 +425,120 @@ img {
 .black {
     color: black;
 }
-@media (max-width: 768px){
 
-    .navbar{
-        height: auto;
-        flex-direction: column;
-        padding: 15px;
-        gap: 15px;
-    }
 
-    .section{
-        margin: 0;
-        gap: 15px;
-        font-size: 16px;
-    }
-
-    .call{
-        margin: 0;
-    }
-
-    .main{
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 20px;
-    }
-
-    .serving{
-        margin-top: 20px;
-    }
-
-    .fh,
-    .sh,
-    .th{
-        font-size: 2.5rem;
-        line-height: 1.1;
-    }
-
-    .second_content h3{
-        font-size: 16px;
-        line-height: 1.5;
-    }
-
-    .both_button{
-        flex-direction: column;
-    }
-
-    .request,
-    .view_services{
-        width: 100%;
-        max-width: 250px;
-    }
-
-    .sec_main{
-        height: auto;
-        gap: 30px;
-        padding: 30px 0;
-    }
-
-    .number{
-        width: 45%;
-    }
-
-    .do,
-    .company{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .partner{
-        font-size: 2rem;
-    }
-
-    .form{
-        font-size: 16px;
-        height: auto;
-    }
-
-    .service_div{
-        margin: 20px;
+/* ===== TABLET (1024px and below) ===== */
+@media (max-width: 1024px) {
+    .section {
+        margin-left: 60px;
         gap: 20px;
+        font-size: 16px;
     }
 
-    .cleaning{
-        width: 100%;
-        height: auto;
-        min-height: 220px;
+    .call {
+        margin-left: 60px;
+    }
+
+    .main {
+        max-width: 90%;
+    }
+
+    .fh {
+        font-size: 7vh;
+    }
+
+    .sh {
+        font-size: 7.5vh;
+    }
+
+    .service_div {
+        margin-left: 8vh;
+        margin-right: 8vh;
+        justify-content: center;
+    }
+
+    .cleaning {
         margin-left: 0;
     }
 
-    .all{
-        margin-left: 20px;
+    .do,
+    .company,
+    .all {
+        margin-left: 8vh;
     }
 
-    .track img{
-        height: 50px;
+    .about_company {
+        margin-left: 8vh;
     }
 
-    .footer{
-        height: auto;
-        padding: 20px;
-        flex-direction: column;
+    .paragraph {
+        margin-left: -25vh;
+        width: 45vh;
     }
 
-    .about_company,
-    .explore,
-    .mail{
-        margin: 0;
+    .explore {
+        margin-left: 6vh;
     }
 
-    .paragraph{
+    .mail {
+        margin-left: 15vh;
+    }
+}
+
+/* ===== MOBILE (768px and below) — you already have this one ===== */
+
+/* ===== SMALL MOBILE (480px and below) ===== */
+@media (max-width: 480px) {
+    .p {
+        font-size: 2.2vh;
+    }
+
+    .fh,
+    .sh {
+        font-size: 1.8rem;
+    }
+
+    .second_content h3 {
+        font-size: 14px;
+    }
+
+    .number {
         width: 100%;
-        margin: 15px 0;
+        font-size: 2.2vh;
+    }
+
+    .text {
+        font-size: 2.2vh;
+    }
+
+    .partner {
+        font-size: 1.6rem;
+    }
+
+    .font-heading {
+        font-size: 2.8vh;
+    }
+
+    .font-heading2 {
+        font-size: 2vh;
         height: auto;
     }
 
-    .footer_contact{
-        margin-top: 20px;
+    .cleaning-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .track img {
+        height: 40px;
+        width: auto;
+    }
+
+    .footer-nav {
+        gap: 0;
+    }
+
+    .mail {
+        margin-left: 0;
     }
 }
